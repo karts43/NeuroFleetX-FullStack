@@ -1,0 +1,30 @@
+.vehicle-card {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.status {
+  align-self: flex-start;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+.status.available {
+  background: #22c55e;
+}
+
+.status.in_use {
+  background: #f59e0b;
+}
+
+.status.maintenance {
+  background: #ef4444;
+}
